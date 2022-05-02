@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.contenedor {
+    position: relative;
+    width: 420px;
+    min-height: 400px;
+    background-color: white;
+    padding: 20px;
+}
+
+.contenedor .padre-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor .padre-encabezado .encabezado {
+
+    display: flex;
+    text-align: center;
+}
+
+.texto-encabezado {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1em;
+    color: rgb(85, 83, 83);
+    
+}
+
+#h3 {
+    color: black;
+}
+
+.html5-logo {
+    font-size: 21px;
+    padding-right: 10px;
+    cursor: pointer;
+    
+}
+
+.texto-encabezado p {
+    font-size: 0.80em;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+#itachi {
+    position: relative;
+    width: 100%;
+    height: 290px;
+    margin: 10px 0 15px;
+}
+
+.derecha {
+    display: inline;
+    padding-left: 295px;
+
+}
+
+.likes {
+
+font-weight: 500;
+margin-top: 6px;
+font-size: 16px;
+
+}
+
+
+.texto-final {
+    margin-top: 20px;
+}
+
